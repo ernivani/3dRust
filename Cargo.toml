@@ -1,7 +1,11 @@
 [package]
-name = "unimpin"
+name = "learn_opengl_rust"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-macroquad = "0.4"
+sdl2 = { version = "0.37", features = ["bundled", "static-link"] }
+gl = "0.14"
+bytemuck = "1.14"
+image = "0.25"
+noise = "0.9.0"
